@@ -7,7 +7,7 @@ export default function Home() {
                 Food You'll love brought by people who care.
             </h1>
             <div>
-                <p>Why BB's? Simple; we will cater your hearts desires, from jeffs mouth watering barbecue sauce and steak, to amber heart warming passole. The possbilities are endless for your events needs.</p>
+                <p>Why BB's? Simple; we will cater your hearts desires, from jeffs mouth watering barbecue sauce and steak, to ambers heart warming passole. The possbilities are endless for your events needs.</p>
             </div>
             <div>
                 <ul>
