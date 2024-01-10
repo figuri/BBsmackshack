@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <section>
+        <section class='intro-title'>
             <h1>
-                Food You'll love brought by people who care.
+                Brodie loves it. So will you
             </h1>
             <div>
                 <p>Why BB's? Simple; we will cater your hearts desires, from jeffs mouth watering barbecue sauce and steak, to ambers heart warming passole. The possbilities are endless for your events needs.</p>

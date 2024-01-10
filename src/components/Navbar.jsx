@@ -1,23 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../pub/images/bblogo.jpg";
 
 function Navbar() {
-    return (
-        <nav>
-            <h1 class='title'>BB's Smack Shack</h1>
-            <ul class='pages'>
-                <li>
-                    <Link to='/'>Home.</Link>
-                </li>
-                <li>
-                    <Link to='/about'>About us.</Link>
-                </li>
-                <li>
-                    <Link to='/shop'>Shop.</Link>
-                </li>
-            </ul>
-        </nav>
-    );
+  return (
+    <nav className="navbar">
+      <img class="logo" src={logo} alt="BBs Smack Shack logo" />
+      <div class="navStuff">
+        <div class="pages">
+          <Link to="/">BB's Smack Shack</Link>
+          <Link to="/about">About us.</Link>
+          <Link to="/shop">Shop.</Link>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;
