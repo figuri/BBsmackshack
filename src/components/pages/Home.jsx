@@ -4,13 +4,14 @@ export default function Home() {
   return (
     <section className="homepage">
       <div className='opening'>
-        <h1 className="slogan">Brodie loves it, So will you</h1>
-        <p className="motto">
+        <h1 className="slogan">Brodie loves it, So will you.</h1>
+      </div>
+      <div>
+      <p className="motto">
           Why BB's? Simple; we will cater your hearts desires, from jeffs mouth
           watering barbecue sauce and steak, to ambers heart warming passole.
-          The possbilities are endless for your events needs.
+          The possbilities are endless for your events needs.<strong>See links above for more, or see below for FOOD.</strong>
         </p>
-        <p>Still not convinced, Check out some of our selections below.</p>
       </div>
       <div className="Menu">
         <ul>
