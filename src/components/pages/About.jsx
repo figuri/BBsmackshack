@@ -1,43 +1,45 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
-    <section className="about-us-section">
-      <h2 className="section-title">About BB's Smack Shack</h2>
-      <p className="section-description">
-        Welcome to BB's Smack Shack, where passion for seafood meets culinary excellence. Since our establishment,
-        we've been dedicated to providing an unparalleled dining experience, crafting dishes that leave a lasting
-        impression on your taste buds.
-      </p>
-
-      <p>
-        At BB's Smack Shack, we believe in the freshest ingredients and a commitment to quality. Our chefs
-        artfully blend flavors to create mouthwatering seafood dishes that cater to the diverse palates of our
-        valued customers.
-      </p>
-
-      <p>
-        What sets us apart is not just our delectable menu but also our dedication to exceptional service. Whether
-        you're joining us for a casual dining experience or entrusting us with your special events through our
-        catering services, we aim to make every moment memorable.
-      </p>
-
-      <p>
-        Sustainability is at the heart of our operations. We source our seafood responsibly, ensuring that every
-        dish reflects our commitment to the environment and the communities we serve.
-      </p>
-
-      <p>
-        Join us on a culinary journey where every bite is a celebration of flavors. We invite you to explore our
-        menu, savor the freshness, and become a part of the BB's Smack Shack community.
-      </p>
-
-      <p className="contact-info">
-        For inquiries or reservations, please contact us at{' '}
-        <a href="tel:+1234567890">123-456-7890</a> or{' '}
-        <a href="mailto:info@bbsmackshack.com">info@bbsmackshack.com</a>.
-      </p>
-    </section>
+    <div>
+      <div className="brodie">
+        <p>Meet our inspiration, Brodie Brown.</p>
+        <img src="../../pub/images/brodieupclose.jpg" alt="Brodie Brown" />
+        <p>Scroll down.</p>
+      </div>
+      <section className="about-us-section">
+        <div className="about-cards">
+          <div className="design">
+            <h2>Design.</h2>
+            <p>
+              We believe that design is the most important aspect of any
+              product. never more so than with food. simplicity rules for us.
+              BB's is all about quick, and quality, and quantity.
+            </p>
+          </div>
+          <div className="food">
+            <h2>Food.</h2>
+            <p>
+              Do you ever miss moms cooking, dads grilling, or grandmas baking?
+              We do too. That's why we created BB's. We wanted to bring back the
+              feeling of home, and the taste of home. We want you to feel like
+              you can bring your home cooking to any event; but leave all the
+              hard work to us.
+            </p>
+          </div>
+          <div className="people">
+            <h2>People.</h2>
+            <p>
+              Owned and operated by Jeff Brown and his family. local to the east
+              bay where he was born and raised. Jeff feels a deep connection to
+              the community. This is why he has made it his mission to bring
+              smiles to the faces of every customer who comes his way.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 };
 

@@ -1,3 +1,8 @@
+:root {
+  --blond: #faf0be;
+  --canary: #ffef00;
+}
+
 /* navbar */
 
 .logo {
@@ -108,4 +113,118 @@ li h3 {
   margin: 0 auto;
   font-family: Andale Mono, monospace;
   padding: 25px;
+}
+
+/* about us */
+
+.about-us-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  font-family: Andale Mono, monospace;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.design {
+  padding: 10px;
+  margin: 10px;
+  font-size: 13px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  background-color: var(--blond);
+}
+
+.food{
+  padding: 10px;
+  margin: 10px;
+  font-size: 13px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  background-color: var(--blond);
+}
+
+.people {
+  padding: 10px;
+  margin: 10px;
+  font-size: 13px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  background-color: var(--blond);
+}
+
+.brodie {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  font-family: Andale Mono, monospace;
+}
+
+.brodie img {
+  width: 30%;
+  height: 45%;
+  border-radius: 26px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+/* contact us */
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.top-p {
+  display: flex;
+  justify-content: center;
+  font-family: Andale Mono, monospace;
+}
+
+.top h1 {
+  font-family: Andale Mono, monospace;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-family: Andale Mono, monospace;
+}
+
+.contact-form {
+  max-width: 400px; 
+  margin: 0 auto; 
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+label {
+  display: block; 
+  margin-bottom: 8px; 
+}
+
+input,
+textarea {
+  width: 100%; 
+  padding: 8px; 
+  margin-bottom: 16px; 
+  box-sizing: border-box; 
+}
+
+button {
+  background-color: var(--blond);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--canary);
+  font-size: 14px;
 }
